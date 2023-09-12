@@ -57,5 +57,5 @@ jobs:
           submodules: recursive
       - uses: denoland/deployctl@v1
         with:
-          project: ${{ secrets.DENO_ID }}
+          project: great-lamb-55
           entrypoint: src/interactions.ts
